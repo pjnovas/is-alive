@@ -1,0 +1,13 @@
+{
+  "name": "is-alive",
+  "version": "1.0.0",
+  "description": "Little process to notify by email when another server is down",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "moment": "^2.10.6",
+    "nodemailer": "^1.10.0"
+  }
+}

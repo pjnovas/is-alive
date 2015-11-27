@@ -1,0 +1,20 @@
+{
+  "interval":2, // interval to check is got request in MINUTES
+  "secret": "some secret", // this will be validated on a request post
+  "email": {
+    "enabled": false, // If is false wont send emails
+    "transport": { // Transport config for nodemailer
+      "service": "Mailgun",
+      "auth": {
+        "api_key": "key",
+        "domain": "sandbox",
+        "user": "postmaster",
+        "pass": "pass"
+      }
+    },
+    "notify": {
+      "sendTo": "youremail@something.com",
+      "sendAs": "notifier@is-alive.com"
+    }
+  }
+}
